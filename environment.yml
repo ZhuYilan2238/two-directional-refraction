@@ -1,0 +1,16 @@
+name: two-directional-refraction
+channels:
+- pytorch
+- defaults
+dependencies:
+- python=3.12.3
+- pytorch=2.4.1
+- scipy
+- pip
+- pip:
+  - dominate==2.9.1
+  - torchvision==0.19.1
+  - Pillow==10.4.0
+  - numpy==1.26.4
+  - visdom==0.2.4
+  - wandb==0.19.9
